@@ -12,12 +12,12 @@
 </servlet-mapping>
 
 <servlet> 
-	<servlet-name>mul</servlet-name>
+	<servlet-name>multiply</servlet-name>
 	<servlet-class>com.eshaan.SqServlet</servlet-class>
 </servlet>
 
 <servlet-mapping>
-	<servlet-name>mul</servlet-name>
+	<servlet-name>multiply</servlet-name>
 	<url-pattern>/sq</url-pattern>
 </servlet-mapping>
 
