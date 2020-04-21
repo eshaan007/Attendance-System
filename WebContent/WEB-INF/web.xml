@@ -3,22 +3,28 @@
 
 <servlet> 
 	<servlet-name>login</servlet-name>
-	<servlet-class>com.eshaan.AddServlet</servlet-class>
+	<servlet-class>com.eshaan.MyServlet</servlet-class>
+	
+	<init-param>
+		<param-name>name</param-name>
+		<param-value>Suresh</param-value>
+	</init-param>
+	
 </servlet>
 
 <servlet-mapping>
 	<servlet-name>login</servlet-name>
-	<url-pattern>/add</url-pattern>
+	<url-pattern>/home</url-pattern>
 </servlet-mapping>
 
-<servlet> 
-	<servlet-name>multiply</servlet-name>
-	<servlet-class>com.eshaan.SqServlet</servlet-class>
-</servlet>
+<context-param>
+	<param-name>name</param-name>
+	<param-value>Eshaan</param-value>
+</context-param>
 
-<servlet-mapping>
-	<servlet-name>multiply</servlet-name>
-	<url-pattern>/sq</url-pattern>
-</servlet-mapping>
+<context-param>
+	<param-name>Phone</param-name>
+	<param-value>Oneplus</param-value>
+</context-param>
 
 </web-app>
