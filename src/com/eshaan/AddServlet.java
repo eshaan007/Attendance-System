@@ -22,8 +22,8 @@ public class AddServlet extends HttpServlet {
 		
 		//Session management
 		
-//		RequestDispatcher rd = req.getRequestDispatcher("sq");
-//		rd.forward(req, res);
+		RequestDispatcher rd = req.getRequestDispatcher("sq");
+		rd.forward(req, res);
 
 		
 	}
